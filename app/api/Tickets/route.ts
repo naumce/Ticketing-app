@@ -12,7 +12,7 @@ export async function GET() {
   }
 }
 
-export async function POST(req) {
+export async function POST(req: any) {
   console.log("post on")
   try {
     const body = await req.json()
